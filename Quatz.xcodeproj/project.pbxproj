@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16215F7514BC5B23002E760A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16215F7414BC5B23002E760A /* Cocoa.framework */; };
+		16215F7F14BC5B23002E760A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16215F7D14BC5B23002E760A /* InfoPlist.strings */; };
+		16215F8114BC5B23002E760A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16215F8014BC5B23002E760A /* main.m */; };
+		16215F8514BC5B23002E760A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 16215F8314BC5B23002E760A /* Credits.rtf */; };
+		16215F8814BC5B23002E760A /* QuatzAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16215F8714BC5B23002E760A /* QuatzAppDelegate.m */; };
+		16215F8B14BC5B23002E760A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16215F8914BC5B23002E760A /* MainMenu.xib */; };
+		16215F8E14BC5B23002E760A /* Quatz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16215F8C14BC5B23002E760A /* Quatz.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16215F7014BC5B23002E760A /* Quatz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quatz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16215F7414BC5B23002E760A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		16215F7714BC5B23002E760A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		16215F7814BC5B23002E760A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		16215F7914BC5B23002E760A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		16215F7C14BC5B23002E760A /* Quatz-Info.plist */ = {isa = PBXFileReference; path = "Quatz-Info.plist"; sourceTree = "<group>"; };
+		16215F7E14BC5B23002E760A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		16215F8014BC5B23002E760A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16215F8214BC5B23002E760A /* Quatz-Prefix.pch */ = {isa = PBXFileReference; path = "Quatz-Prefix.pch"; sourceTree = "<group>"; };
+		16215F8414BC5B23002E760A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		16215F8614BC5B23002E760A /* QuatzAppDelegate.h */ = {isa = PBXFileReference; path = QuatzAppDelegate.h; sourceTree = "<group>"; };
+		16215F8714BC5B23002E760A /* QuatzAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuatzAppDelegate.m; sourceTree = "<group>"; };
+		16215F8A14BC5B23002E760A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		16215F8D14BC5B23002E760A /* Quatz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Quatz.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16215F6D14BC5B23002E760A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16215F7514BC5B23002E760A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16215F6514BC5B23002E760A = {
+			isa = PBXGroup;
+			children = (
+				16215F7A14BC5B23002E760A /* Quatz */,
+				16215F7314BC5B23002E760A /* Frameworks */,
+				16215F7114BC5B23002E760A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16215F7114BC5B23002E760A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16215F7014BC5B23002E760A /* Quatz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16215F7314BC5B23002E760A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16215F7414BC5B23002E760A /* Cocoa.framework */,
+				16215F7614BC5B23002E760A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16215F7614BC5B23002E760A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16215F7714BC5B23002E760A /* AppKit.framework */,
+				16215F7814BC5B23002E760A /* CoreData.framework */,
+				16215F7914BC5B23002E760A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		16215F7A14BC5B23002E760A /* Quatz */ = {
+			isa = PBXGroup;
+			children = (
+				16215F8614BC5B23002E760A /* QuatzAppDelegate.h */,
+				16215F8714BC5B23002E760A /* QuatzAppDelegate.m */,
+				16215F8914BC5B23002E760A /* MainMenu.xib */,
+				16215F8C14BC5B23002E760A /* Quatz.xcdatamodeld */,
+				16215F7B14BC5B23002E760A /* Supporting Files */,
+			);
+			path = Quatz;
+			sourceTree = "<group>";
+		};
+		16215F7B14BC5B23002E760A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16215F7C14BC5B23002E760A /* Quatz-Info.plist */,
+				16215F7D14BC5B23002E760A /* InfoPlist.strings */,
+				16215F8014BC5B23002E760A /* main.m */,
+				16215F8214BC5B23002E760A /* Quatz-Prefix.pch */,
+				16215F8314BC5B23002E760A /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16215F6F14BC5B23002E760A /* Quatz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16215F9114BC5B23002E760A /* Build configuration list for PBXNativeTarget "Quatz" */;
+			buildPhases = (
+				16215F6C14BC5B23002E760A /* Sources */,
+				16215F6D14BC5B23002E760A /* Frameworks */,
+				16215F6E14BC5B23002E760A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quatz;
+			productName = Quatz;
+			productReference = 16215F7014BC5B23002E760A /* Quatz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16215F6714BC5B23002E760A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 16215F6A14BC5B23002E760A /* Build configuration list for PBXProject "Quatz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 16215F6514BC5B23002E760A;
+			productRefGroup = 16215F7114BC5B23002E760A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16215F6F14BC5B23002E760A /* Quatz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16215F6E14BC5B23002E760A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16215F7F14BC5B23002E760A /* InfoPlist.strings in Resources */,
+				16215F8514BC5B23002E760A /* Credits.rtf in Resources */,
+				16215F8B14BC5B23002E760A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16215F6C14BC5B23002E760A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16215F8114BC5B23002E760A /* main.m in Sources */,
+				16215F8814BC5B23002E760A /* QuatzAppDelegate.m in Sources */,
+				16215F8E14BC5B23002E760A /* Quatz.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		16215F7D14BC5B23002E760A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16215F7E14BC5B23002E760A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		16215F8314BC5B23002E760A /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16215F8414BC5B23002E760A /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		16215F8914BC5B23002E760A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16215F8A14BC5B23002E760A /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16215F8F14BC5B23002E760A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		16215F9014BC5B23002E760A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		16215F9214BC5B23002E760A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Quatz/Quatz-Prefix.pch";
+				INFOPLIST_FILE = "Quatz/Quatz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		16215F9314BC5B23002E760A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Quatz/Quatz-Prefix.pch";
+				INFOPLIST_FILE = "Quatz/Quatz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16215F6A14BC5B23002E760A /* Build configuration list for PBXProject "Quatz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16215F8F14BC5B23002E760A /* Debug */,
+				16215F9014BC5B23002E760A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16215F9114BC5B23002E760A /* Build configuration list for PBXNativeTarget "Quatz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16215F9214BC5B23002E760A /* Debug */,
+				16215F9314BC5B23002E760A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		16215F8C14BC5B23002E760A /* Quatz.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				16215F8D14BC5B23002E760A /* Quatz.xcdatamodel */,
+			);
+			currentVersion = 16215F8D14BC5B23002E760A /* Quatz.xcdatamodel */;
+			path = Quatz.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 16215F6714BC5B23002E760A /* Project object */;
+}
