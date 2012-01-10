@@ -15,6 +15,20 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+    NSDictionary *opts = [NSDictionary dictionaryWithObjectsAndKeys:
+                          [NSNumber numberWithBool:YES], NSFullScreenModeAllScreens,
+                          nil];
+    
+    NSView *view = [window contentView];
+    [view enterFullScreenMode:[NSScreen mainScreen] withOptions:opts];
+    
+    NSRect frame = [view.window frame];
+    frame.size.width *= 2;
+    [view.window setContentSize:frame.size];
+
+    // make the quartzView fill up the window
+    [quartzView setFrame:frame];
+    [quartzView startRendering];
 }
 
 /**
