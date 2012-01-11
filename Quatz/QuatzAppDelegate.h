@@ -8,10 +8,13 @@
 
 #import <Cocoa/Cocoa.h>
 #import <Quartz/Quartz.h>
+#import <WebKit/WebKit.h>
+
+//#define DUAL_SCREEN
 
 @interface QuatzAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *window;
-    QCView *quartzView;
+    WebView *webView;
 
     NSPersistentStoreCoordinator *__persistentStoreCoordinator;
     NSManagedObjectModel *__managedObjectModel;
@@ -19,7 +22,7 @@
 }
 
 @property (assign) IBOutlet NSWindow *window;
-@property (assign) IBOutlet QCView *quartzView;
+@property (assign) IBOutlet WebView *webView;
 
 @property (nonatomic, retain, readonly) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 @property (nonatomic, retain, readonly) NSManagedObjectModel *managedObjectModel;

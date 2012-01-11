@@ -11,6 +11,7 @@
 @implementation QuatzAppDelegate
 
 @synthesize window;
+@synthesize webView;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
@@ -23,12 +24,19 @@
     [view enterFullScreenMode:[NSScreen mainScreen] withOptions:opts];
     
     NSRect frame = [view.window frame];
+    
+#ifdef DUAL_SCREEN
     frame.size.width *= 2;
+#endif 
+    
     [view.window setContentSize:frame.size];
 
-    // make the quartzView fill up the window
-    [quartzView setFrame:frame];
-    [quartzView startRendering];
+    // make the webView fill up the window
+    [webView setFrame:frame];
+    
+    // make it load a website
+    //[[webView mainFrame] loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.google.nl"]]];
+    [webView setMainFrameURL:@"file://localhost/Users/vakkermans/src/Quatz/Quatz/streetview.html"];
 }
 
 /**
