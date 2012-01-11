@@ -10,7 +10,7 @@
 #import <Quartz/Quartz.h>
 #import <WebKit/WebKit.h>
 
-//#define DUAL_SCREEN
+#define DUAL_SCREEN
 
 @interface QuatzAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *window;

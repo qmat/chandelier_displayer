@@ -36,7 +36,8 @@
     
     // make it load a website
     //[[webView mainFrame] loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.google.nl"]]];
-    [webView setMainFrameURL:@"file://localhost/Users/vakkermans/src/Quatz/Quatz/streetview.html"];
+    NSString *streetviewPath = [[NSBundle mainBundle] pathForResource:@"streetview" ofType:@"html"];
+    [webView setMainFrameURL:streetviewPath];
 }
 
 /**
