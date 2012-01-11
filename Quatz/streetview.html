@@ -12,7 +12,7 @@
 		    padding: 0;
 		  }
 		  div#visible_wrapper {
-		  	width: 2048px;
+		  	width: 6656px;
 		  }
 		  img {
   		  	margin: 0;
@@ -32,7 +32,16 @@
 			var currentPanoid;
 			var newPanoid;
 			var imagesLoaded;
-			var totalImages = 8;
+			
+			var xImages = 13;
+			var yImages = 2;
+			var xOffset = 0;
+			var yOffset = 3;
+			var xModulo = 13;
+			var yModulo = 7;
+			var zoomLevel = 4;
+			
+			var totalImages = xImages * yImages;
 			
 			var newImages;
 			
@@ -41,10 +50,10 @@
 			{
 				newImages = [];
 				
-				for(i=0;i<2;i++)
+				for(i=0; i<yImages; i++)
 				{
 					newImages[i] = [];
-					for(j=0;j<4;j++)
+					for(j=0; j<xImages; j++)
 						newImages[i][j] = 0;
 				}	
 			
@@ -107,11 +116,13 @@
 			
 			function cachePanoid(panoid)
 			{
-				for(i=0;i<2;i++)
+				for(i=0;i<yImages;i++)
 				{
-					for(j=0;j<4;j++)
+					for(j=0;j<xImages;j++)
 					{
-						url = 'http://cbk0.google.com/cbk?output=tile&panoid=' + panoid + '&x=' + j + '&y=' + i + '&zoom=2';
+						//console.debug(i + ' ' + j);
+						url = 'http://cbk0.google.com/cbk?output=tile&panoid=' + panoid + '&x=' + 
+							  ((j + xOffset) % xModulo) + '&y=' + ((i + yOffset) % yModulo) + '&zoom=' + zoomLevel;
 						cacheImage(url, j, i);
 					}
 				}
@@ -125,9 +136,9 @@
 				$(".wrapper_1").empty();
 				
 				// add invisible images to visible wrapper
-				for(i=0; i<2; i++)
+				for(i=0; i<yImages; i++)
 				{
-					for(j=0; j<4; j++)
+					for(j=0; j<xImages; j++)
 					{
 						$("#visible_wrapper .wrapper_"+i).append(newImages[i][j]);
 					}
@@ -136,7 +147,6 @@
 				// get next panoid
 				setTimeout(function() {getNextPanoid(newPanoid)}, 500);
 			}
-			
 			
 		
 		</script>
