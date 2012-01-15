@@ -36,8 +36,8 @@
     
     // make it load a website
     //[[webView mainFrame] loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.google.nl"]]];
-    NSString *streetviewPath = [[NSBundle mainBundle] pathForResource:@"streetview" ofType:@"html"];
-    [webView setMainFrameURL:streetviewPath];
+    //NSString *processingPath = [[NSBundle mainBundle] pathForResource:@"processing" ofType:@"html"];
+    [webView setMainFrameURL:@"http://127.0.0.1:8000/processing/sketch/random/"];
 }
 
 /**
