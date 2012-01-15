@@ -10,17 +10,17 @@
 		  body {
 		    margin: 0;
 		    padding: 0;
+		    overflow: hidden;
 		  }
 		  div#visible_wrapper {
 		  	width: 6656px;
 		  }
-		  img {
+		  div#visible_wrapper img {
   		  	margin: 0;
 		  	padding: 0;
+		  	height: 300;
+		  	width: 512;
 		  	float: left;
-		  }
-		  div#hidden_wrapper {
-		  	visibility: hidden;
 		  }
 		</style>
 		
@@ -35,27 +35,36 @@
 			
 			var xImages = 13;
 			var yImages = 2;
-			var xOffset = 0;
-			var yOffset = 3;
+			var xOffset = 3;
+			var yOffset = 2;
 			var xModulo = 13;
 			var yModulo = 7;
 			var zoomLevel = 4;
 			
+			var refreshInterval = 200;
+			
 			var totalImages = xImages * yImages;
 			
 			var newImages;
+			var wrapper = 0;
 			
+			
+			// create enough Image instances
+			images = [];		
+			for(wrapper=0; wrapper<2; wrapper++)
+			{		
+				images[wrapper] = [];
+				for(x=0; x<xImages; x++)
+				{
+					newImages[wrapper][x] = [];
+					for(y=0; y<xImages; y++)
+						newImages[wrapper][x][y] = new Image();
+				}	
+			}
 		
 			function start()
 			{
-				newImages = [];
 				
-				for(i=0; i<yImages; i++)
-				{
-					newImages[i] = [];
-					for(j=0; j<xImages; j++)
-						newImages[i][j] = 0;
-				}	
 			
 				startPanoid = "pRDNtqjbN_gA-828AOQOlw";
 				previousPanoid = startPanoid;
@@ -69,9 +78,8 @@
 			
 			function cacheImage(url, x, y)
 			{
-				var img = new Image();
-      			newImages[y][x] = img;
-      			$(img).load(checkImages).error(checkImages).attr('src', url);
+      			img = newImages[wrapper][x][y] = img;
+      			$(img).load(checkImages).error(checkImages).attr('src', url).attr('width', 512).attr('height', 300)	;
 			}
 			
 			
@@ -132,6 +140,7 @@
 			function displayImages()
 			{
 				// clear visible wrapper
+				$("#visible_wrapper img").attr("src", "").load();
 				$(".wrapper_0").empty();
 				$(".wrapper_1").empty();
 				
@@ -143,9 +152,10 @@
 						$("#visible_wrapper .wrapper_"+i).append(newImages[i][j]);
 					}
 				}
+				console.debug("showed pictures");
 				
 				// get next panoid
-				setTimeout(function() {getNextPanoid(newPanoid)}, 500);
+				setTimeout(function() {getNextPanoid(newPanoid)}, refreshInterval);
 			}
 			
 		
@@ -154,17 +164,18 @@
 
     <body onload="start();">
 
-		<div id="visible_wrapper">
-		
-			<div class="wrapper_0">
-			</div>
-		
+		<!-- set the image urls in outer_wrapper_0 and outer_wrapper_1 alternatingly -->
+		<div id="outer_wrapper_0">
+			<div class="wrapper_0"></div>
 			<br>
-		
-			<div class="wrapper_1">
-			</div>
-			
+			<div class="wrapper_1"></div>
 		</div>
+		
+		<div id="outer_wrapper_1">
+			<div class="wrapper_0"></div>
+			<br>
+			<div class="wrapper_1"></div>
+		</div>		
 
     </body>
 
