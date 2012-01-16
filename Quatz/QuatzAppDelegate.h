@@ -14,10 +14,13 @@
 #import <YAJL/YAJL.h>
 
 #define DUAL_SCREEN
+#define ZMQ_ADDRESS @"tcp://127.0.0.1:10000"
+#define TOTAL_WIDTH 6400
+#define TOTAL_HEIGHT 600
 
 @interface QuatzAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *window;
-    NSView *currentView;
+    NSMutableArray *currentViews;
     NSView *mainView;
     NSRect mainFrame;
 
@@ -27,7 +30,6 @@
 }
 
 @property (assign) IBOutlet NSWindow *window;
-@property (assign) IBOutlet NSView *currentView;
 @property (assign) IBOutlet NSView *mainView;
 @property (assign) IBOutlet NSRect mainFrame;
 
@@ -38,12 +40,9 @@
 - (IBAction)saveAction:(id)sender;
 
 - (void)startZeroMQThread;
-
-// for starting websites or processing sketches
-- (void)startWebView:(NSDictionary*)arguments;
-
-// for starting quartz sketches
-- (void)startQuartzView:(NSDictionary*)arguments;
+- (void)releaseCurrentViews;
+- (void)startWebView:(NSDictionary*)arguments;      // for starting websites or processing sketches
+- (void)startQuartzView:(NSDictionary*)arguments;   // for starting quartz sketches
 
 
 @end

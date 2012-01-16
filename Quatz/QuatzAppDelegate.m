@@ -11,12 +11,12 @@
 @implementation QuatzAppDelegate
 
 @synthesize window;
-@synthesize currentView;
 @synthesize mainView;
 @synthesize mainFrame;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
+    currentViews = [[NSMutableArray alloc] init];
     mainView = [window contentView];
     /*
     NSDictionary *opts = [NSDictionary dictionaryWithObjectsAndKeys:
@@ -41,18 +41,33 @@
                            withObject:nil];
 }
 
+- (void)releaseCurrentViews
+{
+    // release all the currentViews
+    for(int i=0; i<[currentViews count]; i++)
+    {
+        [[currentViews objectAtIndex:0] release];
+        [currentViews removeObjectAtIndex:0];
+    }    
+}
+
 - (void)startWebView:(NSDictionary*)arguments
 {
-    NSLog(@"Starting webview.");
-    if(currentView != NULL)
+    [self releaseCurrentViews];
+    // add new views
+    NSArray *urls = [arguments objectForKey:@"urls"];
+    int views = [[arguments objectForKey:@"views"] intValue]; // number of new views
+    int viewWidth = mainFrame.size.width / views;             // the width of each new view
+    for(int i=0; i<views; i++)
     {
-        [currentView removeFromSuperview];
-        [currentView release];
-        currentView = NULL;
+        // set the position, width, and height for the viwes
+        WebView *view = [[WebView alloc] initWithFrame:NSMakeRect(0, 0, viewWidth, mainFrame.size.height)];
+        [view setFrameOrigin:NSMakePoint(i*viewWidth,0)];
+        // cycle through the available urls, this way you can for example have 8 views with 1 url, or 4 views with 2 urls repeated twice.
+        [view setMainFrameURL:[urls objectAtIndex:(i%[urls count])]];
+        [currentViews addObject:view];
+        [mainView addSubview:view];
     }
-    currentView = [[WebView alloc] initWithFrame:NSMakeRect(0,0,mainFrame.size.width,mainFrame.size.height)];
-    [(WebView*)currentView setMainFrameURL:[[arguments objectForKey:@"urls"] objectAtIndex:0]];
-    [mainView addSubview:currentView];
     [mainView setNeedsDisplay:YES];
 }
 
@@ -61,7 +76,7 @@
     ZMQContext *context = [[ZMQContext alloc] initWithIOThreads:1];
     ZMQSocket *socket = [context socketWithType:4];
     
-    [socket bindToEndpoint:@"tcp://127.0.0.1:10000"];
+    [socket bindToEndpoint:ZMQ_ADDRESS];
     
     zmq_pollitem_t pollItems[1];
     [socket getPollItem:pollItems forEvents:ZMQ_POLLIN];
