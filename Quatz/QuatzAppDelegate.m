@@ -11,33 +11,95 @@
 @implementation QuatzAppDelegate
 
 @synthesize window;
-@synthesize webView;
+@synthesize currentView;
+@synthesize mainView;
+@synthesize mainFrame;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    mainView = [window contentView];
+    /*
     NSDictionary *opts = [NSDictionary dictionaryWithObjectsAndKeys:
                           [NSNumber numberWithBool:YES], NSFullScreenModeAllScreens,
                           nil];
+    [mainView enterFullScreenMode:[NSScreen mainScreen] 
+                      withOptions:opts];
+     */
     
-    NSView *view = [window contentView];
-    [view enterFullScreenMode:[NSScreen mainScreen] withOptions:opts];
+    mainFrame = [mainView.window frame];
     
-    NSRect frame = [view.window frame];
+    #ifdef DUAL_SCREEN
+    mainFrame.size.width *= 2;
+    #endif 
     
-#ifdef DUAL_SCREEN
-    frame.size.width *= 2;
-#endif 
-    
-    [view.window setContentSize:frame.size];
+    [mainView.window setContentSize:mainFrame.size];
 
-    // make the webView fill up the window
-    [webView setFrame:frame];
     
-    // make it load a website
-    //[[webView mainFrame] loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.google.nl"]]];
-    //NSString *processingPath = [[NSBundle mainBundle] pathForResource:@"processing" ofType:@"html"];
-    [webView setMainFrameURL:@"http://127.0.0.1:8000/processing/sketch/random/"];
+    
+    [NSThread detachNewThreadSelector:@selector(startZeroMQThread)
+                             toTarget:self 
+                           withObject:nil];
+}
+
+- (void)startWebView:(NSDictionary*)arguments
+{
+    NSLog(@"Starting webview.");
+    if(currentView != NULL)
+    {
+        [currentView removeFromSuperview];
+        [currentView release];
+        currentView = NULL;
+    }
+    currentView = [[WebView alloc] initWithFrame:NSMakeRect(0,0,mainFrame.size.width,mainFrame.size.height)];
+    [(WebView*)currentView setMainFrameURL:[[arguments objectForKey:@"urls"] objectAtIndex:0]];
+    [mainView addSubview:currentView];
+    [mainView setNeedsDisplay:YES];
+}
+
+- (void)startZeroMQThread
+{
+    ZMQContext *context = [[ZMQContext alloc] initWithIOThreads:1];
+    ZMQSocket *socket = [context socketWithType:4];
+    
+    [socket bindToEndpoint:@"tcp://127.0.0.1:10000"];
+    
+    zmq_pollitem_t pollItems[1];
+    [socket getPollItem:pollItems forEvents:ZMQ_POLLIN];
+    
+    [NSThread sleepForTimeInterval:1];
+    
+    NSString* OK= @"";
+    
+    while(true)
+    {
+        int rs = [ZMQContext pollWithItems:pollItems 
+                                     count:1 
+                          timeoutAfterUsec:ZMQPollTimeoutNever];
+        // sanity check whether we have actually received anything
+        if(rs > 0 && pollItems[0].revents == ZMQ_POLLIN)
+        {
+            // get the data from the socket
+            NSData *data = [socket receiveDataWithFlags:0];
+            // interpret the data, should be json
+            NSDictionary *dict = [data yajl_JSON];
+            // output the dictionary, pretty-printed
+            NSLog(@"%@", [dict yajl_JSONStringWithOptions:YAJLGenOptionsBeautify
+                                             indentString:@"    "]);
+            // what should we do?
+            if([[dict objectForKey:@"mode"] isEqualToString:@"webview"])
+            {
+                [self performSelectorOnMainThread:@selector(startWebView:)
+                                       withObject:[dict objectForKey:@"arguments"]
+                                    waitUntilDone:false];
+            }
+            // send something  back so that the REQ socket is valid again
+            [socket sendData:[OK dataUsingEncoding:NSUTF8StringEncoding]
+                   withFlags:0];
+            
+        }
+        
+    }
+    
 }
 
 /**
