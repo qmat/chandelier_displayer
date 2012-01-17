@@ -11,24 +11,128 @@
 @implementation QuatzAppDelegate
 
 @synthesize window;
+@synthesize mainView;
+@synthesize mainFrame;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    currentViews = [[NSMutableArray alloc] init];
+    mainView = [window contentView];
+    /*
     NSDictionary *opts = [NSDictionary dictionaryWithObjectsAndKeys:
                           [NSNumber numberWithBool:YES], NSFullScreenModeAllScreens,
                           nil];
+    [mainView enterFullScreenMode:[NSScreen mainScreen] 
+                      withOptions:opts];
+     */
     
-    NSView *view = [window contentView];
-    [view enterFullScreenMode:[NSScreen mainScreen] withOptions:opts];
+    mainFrame = [mainView.window frame];
     
-    NSRect frame = [view.window frame];
-    frame.size.width *= 2;
-    [view.window setContentSize:frame.size];
+    #ifdef DUAL_SCREEN
+    mainFrame.size.width *= 2;
+    #endif 
+    
+    [mainView.window setContentSize:mainFrame.size];
 
-    // make the quartzView fill up the window
-    [quartzView setFrame:frame];
-    [quartzView startRendering];
+    
+    
+    [NSThread detachNewThreadSelector:@selector(startZeroMQThread)
+                             toTarget:self 
+                           withObject:nil];
+}
+
+- (void)releaseCurrentViews
+{
+    // release all the currentViews
+    while([currentViews count] > 0)
+    {
+        [[currentViews objectAtIndex:0] removeFromSuperview];
+        [[currentViews objectAtIndex:0] release];
+        [currentViews removeObjectAtIndex:0];
+    }
+}
+
+- (void)startWebView:(NSDictionary*)arguments
+{
+    [self releaseCurrentViews];
+    // add new views
+    NSArray *urls = [arguments objectForKey:@"urls"];
+    int views = [[arguments objectForKey:@"views"] intValue]; // number of new views
+    int viewWidth = mainFrame.size.width / views;             // the width of each new view
+    for(int i=0; i<views; i++)
+    {
+        // set the position, width, and height for the viwes
+        WebView *view = [[WebView alloc] initWithFrame:NSMakeRect(0, 0, viewWidth, mainFrame.size.height)];
+        [view setFrameOrigin:NSMakePoint(i*viewWidth,0)];
+        // cycle through the available urls, this way you can for example have 8 views with 1 url, or 4 views with 2 urls repeated twice.
+        [view setMainFrameURL:[urls objectAtIndex:(i%[urls count])]];
+        [currentViews addObject:view];
+        [mainView addSubview:view];
+    }
+    [mainView setNeedsDisplay:YES];
+}
+
+- (void)startQuartzView:(NSDictionary *)arguments
+{
+    [self releaseCurrentViews];
+    QCView *view = [[QCView alloc] initWithFrame:NSMakeRect(0, 0, mainFrame.size.width, mainFrame.size.height)];
+    [currentViews addObject:view];
+    [mainView addSubview:view];
+    [view loadCompositionFromFile:[arguments objectForKey:@"file"]];
+    [view startRendering];
+}
+
+- (void)startZeroMQThread
+{
+    ZMQContext *context = [[ZMQContext alloc] initWithIOThreads:1];
+    ZMQSocket *socket = [context socketWithType:4];
+    
+    [socket bindToEndpoint:ZMQ_ADDRESS];
+    
+    zmq_pollitem_t pollItems[1];
+    [socket getPollItem:pollItems forEvents:ZMQ_POLLIN];
+    
+    [NSThread sleepForTimeInterval:1];
+    
+    NSString* OK= @"";
+    
+    while(true)
+    {
+        int rs = [ZMQContext pollWithItems:pollItems 
+                                     count:1 
+                          timeoutAfterUsec:ZMQPollTimeoutNever];
+        // sanity check whether we have actually received anything
+        if(rs > 0 && pollItems[0].revents == ZMQ_POLLIN)
+        {
+            // get the data from the socket
+            NSData *data = [socket receiveDataWithFlags:0];
+            // interpret the data, should be json
+            NSDictionary *dict = [data yajl_JSON];
+            // output the dictionary, pretty-printed
+            //NSLog(@"%@", [dict yajl_JSONStringWithOptions:YAJLGenOptionsBeautify indentString:@"    "]);
+            // what should we do?
+            NSString *mode = [dict objectForKey:@"mode"];
+            if([mode isEqualToString:@"web"])
+            {
+                [self performSelectorOnMainThread:@selector(startWebView:)
+                                       withObject:[dict objectForKey:@"arguments"]
+                                    waitUntilDone:false];
+            }
+            if([mode isEqualToString:@"quartz"])
+            {
+                [self performSelectorOnMainThread:@selector(startQuartzView:)
+                                       withObject:[dict objectForKey:@"arguments"]
+                                    waitUntilDone:false];
+            }
+            
+            // send something  back so that the REQ socket is valid again
+            [socket sendData:[OK dataUsingEncoding:NSUTF8StringEncoding]
+                   withFlags:0];
+            
+        }
+        
+    }
+    
 }
 
 /**
