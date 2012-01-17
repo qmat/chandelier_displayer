@@ -44,11 +44,12 @@
 - (void)releaseCurrentViews
 {
     // release all the currentViews
-    for(int i=0; i<[currentViews count]; i++)
+    while([currentViews count] > 0)
     {
+        [[currentViews objectAtIndex:0] removeFromSuperview];
         [[currentViews objectAtIndex:0] release];
         [currentViews removeObjectAtIndex:0];
-    }    
+    }
 }
 
 - (void)startWebView:(NSDictionary*)arguments
@@ -69,6 +70,16 @@
         [mainView addSubview:view];
     }
     [mainView setNeedsDisplay:YES];
+}
+
+- (void)startQuartzView:(NSDictionary *)arguments
+{
+    [self releaseCurrentViews];
+    QCView *view = [[QCView alloc] initWithFrame:NSMakeRect(0, 0, mainFrame.size.width, mainFrame.size.height)];
+    [currentViews addObject:view];
+    [mainView addSubview:view];
+    [view loadCompositionFromFile:[arguments objectForKey:@"file"]];
+    [view startRendering];
 }
 
 - (void)startZeroMQThread
@@ -98,15 +109,22 @@
             // interpret the data, should be json
             NSDictionary *dict = [data yajl_JSON];
             // output the dictionary, pretty-printed
-            NSLog(@"%@", [dict yajl_JSONStringWithOptions:YAJLGenOptionsBeautify
-                                             indentString:@"    "]);
+            //NSLog(@"%@", [dict yajl_JSONStringWithOptions:YAJLGenOptionsBeautify indentString:@"    "]);
             // what should we do?
-            if([[dict objectForKey:@"mode"] isEqualToString:@"webview"])
+            NSString *mode = [dict objectForKey:@"mode"];
+            if([mode isEqualToString:@"web"])
             {
                 [self performSelectorOnMainThread:@selector(startWebView:)
                                        withObject:[dict objectForKey:@"arguments"]
                                     waitUntilDone:false];
             }
+            if([mode isEqualToString:@"quartz"])
+            {
+                [self performSelectorOnMainThread:@selector(startQuartzView:)
+                                       withObject:[dict objectForKey:@"arguments"]
+                                    waitUntilDone:false];
+            }
+            
             // send something  back so that the REQ socket is valid again
             [socket sendData:[OK dataUsingEncoding:NSUTF8StringEncoding]
                    withFlags:0];
