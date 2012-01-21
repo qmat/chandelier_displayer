@@ -13,6 +13,7 @@
 #import "ZMQSocket.h"
 #import <YAJL/YAJL.h>
 
+#define FULL_SCREEN
 #define DUAL_SCREEN
 #define ZMQ_ADDRESS @"tcp://127.0.0.1:10000"
 #define TOTAL_WIDTH 6400

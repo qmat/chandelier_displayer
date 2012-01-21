@@ -18,13 +18,14 @@
 {
     currentViews = [[NSMutableArray alloc] init];
     mainView = [window contentView];
-    /*
+    
+    #ifdef FULL_SCREEN
     NSDictionary *opts = [NSDictionary dictionaryWithObjectsAndKeys:
                           [NSNumber numberWithBool:YES], NSFullScreenModeAllScreens,
                           nil];
     [mainView enterFullScreenMode:[NSScreen mainScreen] 
                       withOptions:opts];
-     */
+    #endif
     
     mainFrame = [mainView.window frame];
     
