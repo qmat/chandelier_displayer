@@ -1,0 +1,228 @@
+TQuatz
+v3
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Info.plist Quatz/Quatz-Info.plist
+cDataModelVersionCompile /Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Resources/Quatz.momd /Users/vakkermans/src/Quatz/Quatz/Quatz.xcdatamodeld
+cProcessPCH /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-gsyqxbdgvpdcwsehzxpvtvaxrfbq/Quatz-Prefix.pch.pth Quatz/Quatz-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/main.o /Users/vakkermans/src/Quatz/Quatz/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/QuatzAppDelegate.o /Users/vakkermans/src/Quatz/Quatz/QuatzAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/MacOS/Quatz normal x86_64
+cCopyStringsFile /Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Resources/en.lproj/InfoPlist.strings Quatz/en.lproj/InfoPlist.strings
+cCpResource Quatz/en.lproj/Credits.rtf build/Debug/Quatz.app/Contents/Resources/en.lproj/Credits.rtf
+cCompileXIB /Users/vakkermans/src/Quatz/Quatz/en.lproj/MainMenu.xib
+cTouch /Users/vakkermans/src/Quatz/build/Debug/Quatz.app
+
+N/Developer/SDKs/MacOSX10.7.sdk
+c000000004E1106D400000000000000EE
+t1309738708
+s238
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004E1106CE0000000000002470
+t1309738702
+s9328
+
+N/Users/vakkermans/src/Quatz/Quatz/Quatz-Prefix.pch
+c000000004F0C23A3000000000000008D
+t1326195619
+s141
+
+N/Users/vakkermans/src/Quatz/Quatz/Quatz.xcdatamodeld
+c000000004F0C23A30000000000000088
+t1326195619
+s136
+
+N/Users/vakkermans/src/Quatz/Quatz/QuatzAppDelegate.m
+c000000004F0C23A30000000000001DE0
+t1326195619
+s7648
+
+N/Users/vakkermans/src/Quatz/Quatz/en.lproj/Credits.rtf
+c000000004F0C23A300000000000001B4
+t1326195619
+s436
+
+N/Users/vakkermans/src/Quatz/Quatz/en.lproj/InfoPlist.strings
+c000000004F0C23A3000000000000002D
+t1326195619
+s45
+
+N/Users/vakkermans/src/Quatz/Quatz/en.lproj/MainMenu.xib
+c000000004F0C23A3000000000003AC40
+t1326195619
+s240704
+
+N/Users/vakkermans/src/Quatz/Quatz/main.m
+c000000004F0C23A30000000000000101
+t1326195619
+s257
+
+N/Users/vakkermans/src/Quatz/build/Debug/Quatz.app
+t2
+s0
+
+N/Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Info.plist
+t2
+s0
+
+N/Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/MacOS/Quatz
+t2
+s0
+
+N/Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Resources/Quatz.momd
+t2
+s0
+
+N/Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Resources/en.lproj/Credits.rtf
+t2
+s0
+
+N/Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Resources/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Resources/en.lproj/MainMenu.nib
+t2
+s0
+
+N/Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/Quatz.LinkFileList
+c000000004F0C23AF00000000000000C6
+t1326195631
+s198
+
+N/Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/QuatzAppDelegate.o
+t2
+s0
+
+N/Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-gsyqxbdgvpdcwsehzxpvtvaxrfbq/Quatz-Prefix.pch.pth
+t2
+s0
+
+NQuatz/Quatz-Info.plist
+c000000004F0C23A30000000000000455
+t1326195619
+s1109
+
+CBuild AST from /Users/vakkermans/src/Quatz/Quatz/QuatzAppDelegate.m
+r0
+
+CBuild AST from /Users/vakkermans/src/Quatz/Quatz/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies16bdef2f5bbcb441^ed28f22f5bbcb441^---0#1#0#--18"Check dependencies
+
+CCompileC build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/QuatzAppDelegate.o /Users/vakkermans/src/Quatz/Quatz/QuatzAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s347888434.288682
+e347888434.461354
+r1
+xCompileC
+xbuild/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/QuatzAppDelegate.o
+x/Users/vakkermans/src/Quatz/Quatz/QuatzAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/vakkermans/src/Quatz/Quatz/QuatzAppDelegate.m3fff49325bbcb441^ca1976325bbcb441^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Users/vakkermans/src/Quatz/Quatz/QuatzAppDelegate.m0000000000000000^1973"CompileC build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/QuatzAppDelegate.o Quatz/QuatzAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vakkermans/src/Quatz    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Quatz-generated-files.hmap -I/Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Quatz-own-target-headers.hmap -I/Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Quatz-all-target-headers.hmap -iquote /Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Quatz-project-headers.hmap -I/Users/vakkermans/src/Quatz/build/Debug/include -I/Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/DerivedSources/x86_64 -I/Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/DerivedSources -F/Users/vakkermans/src/Quatz/build/Debug -include /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-gsyqxbdgvpdcwsehzxpvtvaxrfbq/Quatz-Prefix.pch -MMD -MT dependencies -MF /Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/QuatzAppDelegate.d -c /Users/vakkermans/src/Quatz/Quatz/QuatzAppDelegate.m -o /Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/QuatzAppDelegate.o
+
+CCompileC build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/main.o /Users/vakkermans/src/Quatz/Quatz/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s347888434.288582
+e347888434.439140
+r1
+xCompileC
+xbuild/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/main.o
+x/Users/vakkermans/src/Quatz/Quatz/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Compile /Users/vakkermans/src/Quatz/Quatz/main.m11fe49325bbcb441^b66970325bbcb441^---0#0#0#-19%DVTDocumentLocation2@56"file://localhost/Users/vakkermans/src/Quatz/Quatz/main.m0000000000000000^1913"CompileC build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/main.o Quatz/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vakkermans/src/Quatz    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Quatz-generated-files.hmap -I/Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Quatz-own-target-headers.hmap -I/Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Quatz-all-target-headers.hmap -iquote /Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Quatz-project-headers.hmap -I/Users/vakkermans/src/Quatz/build/Debug/include -I/Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/DerivedSources/x86_64 -I/Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/DerivedSources -F/Users/vakkermans/src/Quatz/build/Debug -include /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-gsyqxbdgvpdcwsehzxpvtvaxrfbq/Quatz-Prefix.pch -MMD -MT dependencies -MF /Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/main.d -c /Users/vakkermans/src/Quatz/Quatz/main.m -o /Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/main.o
+
+CCompileXIB /Users/vakkermans/src/Quatz/Quatz/en.lproj/MainMenu.xib
+s347888434.686381
+e347888434.852581
+r1
+xCompileXIB
+x/Users/vakkermans/src/Quatz/Quatz/en.lproj/MainMenu.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compiling /Users/vakkermans/src/Quatz/Quatz/en.lproj/MainMenu.xibb3cfaf325bbcb441^f850da325bbcb441^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/vakkermans/src/Quatz/Quatz/en.lproj/MainMenu.xib0000000000000000^422"CompileXIB Quatz/en.lproj/MainMenu.xib    cd /Users/vakkermans/src/Quatz    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Resources/en.lproj/MainMenu.nib /Users/vakkermans/src/Quatz/Quatz/en.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.7.sdk
+
+CCopyStringsFile /Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Resources/en.lproj/InfoPlist.strings Quatz/en.lproj/InfoPlist.strings
+s347888434.679908
+e347888434.684669
+r1
+xCopyStringsFile
+x/Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Resources/en.lproj/InfoPlist.strings
+xQuatz/en.lproj/InfoPlist.strings
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy Quatz/en.lproj/InfoPlist.strings8866ae325bbcb441^a46eaf325bbcb441^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/vakkermans/src/Quatz/Quatz/en.lproj/InfoPlist.strings0000000000000000^356"CopyStringsFile build/Debug/Quatz.app/Contents/Resources/en.lproj/InfoPlist.strings Quatz/en.lproj/InfoPlist.strings    cd /Users/vakkermans/src/Quatz    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Resources/en.lproj -- Quatz/en.lproj/InfoPlist.strings
+
+CCpResource Quatz/en.lproj/Credits.rtf build/Debug/Quatz.app/Contents/Resources/en.lproj/Credits.rtf
+s347888434.681436
+e347888434.685531
+r1
+xCpResource
+xQuatz/en.lproj/Credits.rtf
+xbuild/Debug/Quatz.app/Contents/Resources/en.lproj/Credits.rtf
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy build/Debug/Quatz.app/Contents/Resources/en.lproj/Credits.rtf6f83ae325bbcb441^be83af325bbcb441^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Resources/en.lproj/Credits.rtf00f42c6fdeffdf42^367"CpResource Quatz/en.lproj/Credits.rtf build/Debug/Quatz.app/Contents/Resources/en.lproj/Credits.rtf    cd /Users/vakkermans/src/Quatz    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/vakkermans/src/Quatz/Quatz/en.lproj/Credits.rtf /Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Resources/en.lproj
+
+CDataModelVersionCompile /Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Resources/Quatz.momd /Users/vakkermans/src/Quatz/Quatz/Quatz.xcdatamodeld
+s347888431.976885
+e347888432.211518
+r1
+xDataModelVersionCompile
+x/Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Resources/Quatz.momd
+x/Users/vakkermans/src/Quatz/Quatz/Quatz.xcdatamodeld
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"DataModelVersionCompile build/Debug/Quatz.app/Contents/Resources/Quatz.momd Quatz/Quatz.xcdatamodeld904dfa2f5bbcb441^d57637305bbcb441^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/vakkermans/src/Quatz/Quatz/Quatz.xcdatamodeld/0000000000000000^397"DataModelVersionCompile build/Debug/Quatz.app/Contents/Resources/Quatz.momd Quatz/Quatz.xcdatamodeld    cd /Users/vakkermans/src/Quatz    /Developer/usr/bin/momc -XD_MOMC_SDKROOT=/Developer/SDKs/MacOSX10.7.sdk -MOMC_PLATFORMS macosx -XD_MOMC_TARGET_VERSION=10.7 /Users/vakkermans/src/Quatz/Quatz/Quatz.xcdatamodeld /Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Resources/Quatz.momd
+
+CLd /Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/MacOS/Quatz normal x86_64
+s347888434.467934
+e347888434.672120
+r1
+xLd
+x/Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/MacOS/Quatz
+xnormal
+xx86_64
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Link /Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/MacOS/Quatz26e077325bbcb441^560fac325bbcb441^---0#0#0#--535"Ld build/Debug/Quatz.app/Contents/MacOS/Quatz normal x86_64    cd /Users/vakkermans/src/Quatz    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Developer/usr/bin/clang -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.7.sdk -L/Users/vakkermans/src/Quatz/build/Debug -F/Users/vakkermans/src/Quatz/build/Debug -filelist /Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/Quatz.LinkFileList -mmacosx-version-min=10.7 -framework Cocoa -o /Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/MacOS/Quatz
+
+CProcessInfoPlistFile /Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Info.plist Quatz/Quatz-Info.plist
+s347888431.958546
+e347888431.967562
+r1
+xProcessInfoPlistFile
+x/Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Info.plist
+xQuatz/Quatz-Info.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Process Quatz/Quatz-Info.plist22dff52f5bbcb441^274cf82f5bbcb441^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Users/vakkermans/src/Quatz/Quatz/Quatz-Info.plist0000000000000000^363"ProcessInfoPlistFile build/Debug/Quatz.app/Contents/Info.plist Quatz/Quatz-Info.plist    cd /Users/vakkermans/src/Quatz    builtin-infoPlistUtility Quatz/Quatz-Info.plist -genpkginfo /Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Info.plist
+
+CProcessPCH /Users/vakkermans/Library/Developer/Xcode/DerivedData/Quatz-fdegjcxnxvzbbdgepbjjxyirmhpv/Index/PrecompiledHeaders/Quatz-Prefix-dypyxlzktcudicehwyuiiretmryy_ast/Quatz-Prefix.pch.pth Quatz/Quatz-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-gsyqxbdgvpdcwsehzxpvtvaxrfbq/Quatz-Prefix.pch.pth Quatz/Quatz-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s347888431.978175
+e347888434.281073
+r1
+xProcessPCH
+x/var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-gsyqxbdgvpdcwsehzxpvtvaxrfbq/Quatz-Prefix.pch.pth
+xQuatz/Quatz-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile Quatz/Quatz-Prefix.pch6685fa2f5bbcb441^38f347325bbcb441^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Users/vakkermans/src/Quatz/Quatz/Quatz-Prefix.pch0000000000000000^1998"ProcessPCH /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-gsyqxbdgvpdcwsehzxpvtvaxrfbq/Quatz-Prefix.pch.pth Quatz/Quatz-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vakkermans/src/Quatz    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Quatz-generated-files.hmap -I/Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Quatz-own-target-headers.hmap -I/Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Quatz-all-target-headers.hmap -iquote /Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Quatz-project-headers.hmap -I/Users/vakkermans/src/Quatz/build/Debug/include -I/Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/DerivedSources/x86_64 -I/Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/DerivedSources -F/Users/vakkermans/src/Quatz/build/Debug -c /Users/vakkermans/src/Quatz/Quatz/Quatz-Prefix.pch -o /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-gsyqxbdgvpdcwsehzxpvtvaxrfbq/Quatz-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-gsyqxbdgvpdcwsehzxpvtvaxrfbq/Quatz-Prefix.pch.d
+
+CTouch /Users/vakkermans/src/Quatz/build/Debug/Quatz.app
+s347888434.861111
+e347888434.892253
+r1
+xTouch
+x/Users/vakkermans/src/Quatz/build/Debug/Quatz.app
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Touch /Users/vakkermans/src/Quatz/build/Debug/Quatz.appc381dc325bbcb441^e869e4325bbcb441^---0#0#0#--135"Touch build/Debug/Quatz.app    cd /Users/vakkermans/src/Quatz    /usr/bin/touch -c /Users/vakkermans/src/Quatz/build/Debug/Quatz.app
+

@@ -1,0 +1,732 @@
+TQuatz
+v3
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app/Contents/Info.plist Quatz/Quatz-Info.plist
+cDataModelVersionCompile /Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app/Contents/Resources/Quatz.momd /Users/vakkermans/src/chandelier_displayer/Quatz/Quatz.xcdatamodeld
+cProcessPCH /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-eafqvbakswlmdcbfikeukiamhkfz/Quatz-Prefix.pch.pth Quatz/Quatz-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/QuatzAppDelegate.o /Users/vakkermans/src/chandelier_displayer/Quatz/QuatzAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/main.o /Users/vakkermans/src/chandelier_displayer/Quatz/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/ZMQContext.o /Users/vakkermans/src/chandelier_displayer/Quatz/ZMQContext.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/ZMQSocket.o /Users/vakkermans/src/chandelier_displayer/Quatz/ZMQSocket.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app/Contents/MacOS/Quatz normal x86_64
+cCopyStringsFile /Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app/Contents/Resources/en.lproj/InfoPlist.strings Quatz/en.lproj/InfoPlist.strings
+cCpResource Quatz/en.lproj/Credits.rtf build/Debug/Quatz.app/Contents/Resources/en.lproj/Credits.rtf
+cCompileXIB /Users/vakkermans/src/chandelier_displayer/Quatz/en.lproj/MainMenu.xib
+cPBXCp YAJL.framework build/Debug/Quatz.app/Contents/Frameworks/YAJL.framework
+cTouch /Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app
+
+N/Developer/SDKs/MacOSX10.7.sdk
+c000000004E1106D400000000000000EE
+t1309738708
+s238
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004E1106CE0000000000002470
+t1309738702
+s9328
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Quartz.framework/Quartz
+c000000004E1106CF00000000000026BC
+t1309738703
+s9916
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004E1106CF00000000000462E4
+t1309738703
+s287460
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/WebKit.framework/WebKit
+c000000004E1106D00000000000083A6C
+t1309738704
+s539244
+
+N/Developer/SDKs/MacOSX10.7.sdk/usr/local/lib/libzmq.dylib
+c000000004E9C22780000000000041470
+t1318855288
+s267376
+
+N/Users/vakkermans/src/Quatz/Quatz/Quatz-Prefix.pch
+c000000004F0C23A3000000000000008D
+t1326195619
+s141
+
+N/Users/vakkermans/src/Quatz/Quatz/Quatz.xcdatamodeld
+c000000004F0C23A30000000000000088
+t1326195619
+s136
+
+N/Users/vakkermans/src/Quatz/Quatz/QuatzAppDelegate.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/vakkermans/src/Quatz/Quatz/QuatzAppDelegate.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/vakkermans/src/Quatz/Quatz/en.lproj/Credits.rtf
+c000000004F0C23A300000000000001B4
+t1326195619
+s436
+
+N/Users/vakkermans/src/Quatz/Quatz/en.lproj/InfoPlist.strings
+c000000004F0C23A3000000000000002D
+t1326195619
+s45
+
+N/Users/vakkermans/src/Quatz/Quatz/en.lproj/MainMenu.xib
+c000000004F0C6F1400000000000250B0
+t1326214932
+s151728
+
+N/Users/vakkermans/src/Quatz/Quatz/main.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/vakkermans/src/Quatz/Quatz/streetview.html
+c000000004F0DB1AB0000000000000DEA
+t1326297515
+s3562
+
+N/Users/vakkermans/src/Quatz/Quatz/wowlab_Dragon.qtz
+c0000000049A20AB8000000000005FE7E
+t1235356344
+s392830
+
+N/Users/vakkermans/src/Quatz/build/Debug/Quatz.app
+t1326297493
+s102
+
+N/Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Info.plist
+t1326203042
+s1414
+
+N/Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/MacOS/Quatz
+t1326295222
+s26916
+
+N/Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/PkgInfo
+t1326203042
+s8
+
+N/Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Resources/Quatz.momd
+t1326203042
+s170
+
+N/Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Resources/en.lproj/Credits.rtf
+t1326195634
+s436
+
+N/Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Resources/en.lproj/InfoPlist.strings
+t1326195634
+s92
+
+N/Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Resources/en.lproj/MainMenu.nib
+t1326214936
+s27956
+
+N/Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Resources/streetview.html
+t1326297493
+s3562
+
+N/Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Resources/wowlab_Dragon.qtz
+t1326203061
+s392830
+
+N/Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/Quatz.LinkFileList
+c000000004F0C23AF00000000000000C6
+t1326195631
+s198
+
+N/Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/QuatzAppDelegate.o
+t1326295221
+s51324
+
+N/Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/main.o
+t1326203044
+s2320
+
+N/Users/vakkermans/src/chandelier_displayer/../../Downloads/gabriel-yajl-objc-250b3a4/Project/build/Release/YAJL.framework/Headers/NSBundle+YAJL.h
+c000000004F148B5B000000000000090E
+t1326746459
+s2318
+
+N/Users/vakkermans/src/chandelier_displayer/../../Downloads/gabriel-yajl-objc-250b3a4/Project/build/Release/YAJL.framework/Headers/NSObject+YAJL.h
+c000000004F148B5B0000000000001525
+t1326746459
+s5413
+
+N/Users/vakkermans/src/chandelier_displayer/../../Downloads/gabriel-yajl-objc-250b3a4/Project/build/Release/YAJL.framework/Headers/YAJL.h
+c000000004F148B5B0000000000001A1E
+t1326746459
+s6686
+
+N/Users/vakkermans/src/chandelier_displayer/../../Downloads/gabriel-yajl-objc-250b3a4/Project/build/Release/YAJL.framework/Headers/YAJLDocument.h
+c000000004F148B5B0000000000001C2B
+t1326746459
+s7211
+
+N/Users/vakkermans/src/chandelier_displayer/../../Downloads/gabriel-yajl-objc-250b3a4/Project/build/Release/YAJL.framework/Headers/YAJLGen.h
+c000000004F148B5B000000000000102E
+t1326746459
+s4142
+
+N/Users/vakkermans/src/chandelier_displayer/../../Downloads/gabriel-yajl-objc-250b3a4/Project/build/Release/YAJL.framework/Headers/YAJLParser.h
+c000000004F148B5B00000000000015D9
+t1326746459
+s5593
+
+N/Users/vakkermans/src/chandelier_displayer/../../Downloads/gabriel-yajl-objc-250b3a4/Project/build/Release/YAJL.framework/Headers/yajl_gen.h
+c000000004F148B5B0000000000001C2D
+t1326746459
+s7213
+
+N/Users/vakkermans/src/chandelier_displayer/../../Downloads/gabriel-yajl-objc-250b3a4/Project/build/Release/YAJL.framework/Headers/yajl_parse.h
+c000000004F148B5B0000000000002137
+t1326746459
+s8503
+
+N/Users/vakkermans/src/chandelier_displayer/../../Downloads/gabriel-yajl-objc-250b3a4/Project/build/Release/YAJL.framework/YAJL
+c000000004F148B65000000000002B2BC
+t1326746469
+s176828
+
+N/Users/vakkermans/src/chandelier_displayer/../../Downloads/gabriel-yajl-objc-250b3a4/Project/build/Release/yajl.framework/Headers/yajl_common.h
+c000000004F148B5B0000000000000C3B
+t1326746459
+s3131
+
+N/Users/vakkermans/src/chandelier_displayer/Quatz/Quatz-Prefix.pch
+c000000004F0C23A3000000000000008D
+t1326195619
+s141
+
+N/Users/vakkermans/src/chandelier_displayer/Quatz/Quatz.xcdatamodeld
+c000000004F0C23A30000000000000088
+t1326195619
+s136
+
+N/Users/vakkermans/src/chandelier_displayer/Quatz/QuatzAppDelegate.h
+c000000004F15C1A5000000000000059A
+t1326825893
+s1434
+
+N/Users/vakkermans/src/chandelier_displayer/Quatz/QuatzAppDelegate.m
+c000000004F15AC030000000000002E78
+t1326820355
+s11896
+
+N/Users/vakkermans/src/chandelier_displayer/Quatz/ZMQContext.h
+c000000004F15AC03000000000000045A
+t1326820355
+s1114
+
+N/Users/vakkermans/src/chandelier_displayer/Quatz/ZMQContext.m
+c000000004F15AC030000000000000692
+t1326820355
+s1682
+
+N/Users/vakkermans/src/chandelier_displayer/Quatz/ZMQSocket.h
+c000000004F15AC03000000000000054C
+t1326820355
+s1356
+
+N/Users/vakkermans/src/chandelier_displayer/Quatz/ZMQSocket.m
+c000000004F15AC030000000000001300
+t1326820355
+s4864
+
+N/Users/vakkermans/src/chandelier_displayer/Quatz/en.lproj/Credits.rtf
+c000000004F0C23A300000000000001B4
+t1326195619
+s436
+
+N/Users/vakkermans/src/chandelier_displayer/Quatz/en.lproj/InfoPlist.strings
+c000000004F0C23A3000000000000002D
+t1326195619
+s45
+
+N/Users/vakkermans/src/chandelier_displayer/Quatz/en.lproj/MainMenu.xib
+c000000004F15C19C00000000000259B6
+t1326825884
+s154038
+
+N/Users/vakkermans/src/chandelier_displayer/Quatz/main.m
+c000000004F0C23A30000000000000101
+t1326195619
+s257
+
+N/Users/vakkermans/src/chandelier_displayer/Quatz/processing.html
+c000000004F12C68B00000000000002A2
+t1326630539
+s674
+
+N/Users/vakkermans/src/chandelier_displayer/Quatz/streetview.html
+c000000004F12ABBD0000000000000FFE
+t1326623677
+s4094
+
+N/Users/vakkermans/src/chandelier_displayer/Quatz/test.pde
+c000000004ECE3E5100000000000008B6
+t1322139217
+s2230
+
+N/Users/vakkermans/src/chandelier_displayer/Quatz/wowlab_Dragon.qtz
+c0000000049A20AB8000000000005FE7E
+t1235356344
+s392830
+
+N/Users/vakkermans/src/chandelier_displayer/YAJL.framework
+c000000004F15AC0300000000000000CC
+t1326820355
+s204
+
+N/Users/vakkermans/src/chandelier_displayer/YAJL.framework/YAJL
+c000000004F15AC03000000000002B2BC
+t1326820355
+s176828
+
+N/Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app
+t1326824715
+s102
+
+N/Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app/Contents/Frameworks/YAJL.framework
+t1326824715
+s204
+
+N/Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app/Contents/Info.plist
+t1326203042
+s1414
+
+N/Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app/Contents/MacOS/Quatz
+t1326824714
+s53024
+
+N/Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app/Contents/PkgInfo
+t1326203042
+s8
+
+N/Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app/Contents/Resources/Quatz.momd
+t1326203042
+s170
+
+N/Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app/Contents/Resources/en.lproj/Credits.rtf
+t1326195634
+s436
+
+N/Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app/Contents/Resources/en.lproj/InfoPlist.strings
+t1326195634
+s92
+
+N/Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app/Contents/Resources/en.lproj/MainMenu.nib
+t1326824714
+s26555
+
+N/Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app/Contents/Resources/processing.html
+t1326630545
+s674
+
+N/Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app/Contents/Resources/streetview.html
+t1326297517
+s3562
+
+N/Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app/Contents/Resources/test.pde
+t1326629710
+s2230
+
+N/Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app/Contents/Resources/wowlab_Dragon.qtz
+t1326203061
+s392830
+
+N/Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/Quatz.LinkFileList
+c000000004F146FC100000000000001C7
+t1326739393
+s455
+
+N/Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/QuatzAppDelegate.o
+t1326824714
+s63676
+
+N/Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/ZMQContext.o
+t1326824714
+s16168
+
+N/Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/ZMQSocket.o
+t1326824714
+s28100
+
+N/Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/main.o
+t1326746874
+s2360
+
+N/usr/local/include/zmq.h
+c000000004E9C22770000000000002599
+t1318855287
+s9625
+
+N/var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-afrrccncblpvppgdbhzgseovxaci/Quatz-Prefix.pch.pth
+t1326739448
+s12376632
+
+N/var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-axuiwpowgpebzfbrcrscadplodgu/Quatz-Prefix.pch.pth
+t1326629707
+s12376632
+
+N/var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-eafqvbakswlmdcbfikeukiamhkfz/Quatz-Prefix.pch.pth
+t1326746874
+s12376632
+
+N/var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-eklwzsdrxpofbebvriaflyusggbu/Quatz-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-ftmxocervcaoivgdwsrmfbzjspyf/Quatz-Prefix.pch.pth
+t1326203043
+s12376496
+
+N/var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-gsyqxbdgvpdcwsehzxpvtvaxrfbq/Quatz-Prefix.pch.pth
+t1326195634
+s12462944
+
+NQuatz/Quatz-Info.plist
+c000000004F0C23A30000000000000455
+t1326195619
+s1109
+
+CBuild AST from /Users/vakkermans/src/Quatz/Quatz/QuatzAppDelegate.m
+r0
+
+CBuild AST from /Users/vakkermans/src/Quatz/Quatz/main.m
+r0
+
+CBuild AST from /Users/vakkermans/src/chandelier_displayer/Quatz/QuatzAppDelegate.m
+r0
+
+CBuild AST from /Users/vakkermans/src/chandelier_displayer/Quatz/ZMQContext.m
+r0
+
+CBuild AST from /Users/vakkermans/src/chandelier_displayer/Quatz/ZMQSocket.m
+r0
+
+CBuild AST from /Users/vakkermans/src/chandelier_displayer/Quatz/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies4b3ddf2bf9c5b441^8621e22bf9c5b441^---0#1#0#--18"Check dependencies
+
+CCompileC build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/QuatzAppDelegate.o /Users/vakkermans/src/Quatz/Quatz/QuatzAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s347988019.987374
+e347988022.009943
+r1
+xCompileC
+xbuild/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/QuatzAppDelegate.o
+x/Users/vakkermans/src/Quatz/Quatz/QuatzAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/vakkermans/src/Quatz/Quatz/QuatzAppDelegate.md0eefc33e0bdb441^5dc42b36e0bdb441^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Users/vakkermans/src/Quatz/Quatz/QuatzAppDelegate.m0000000000000000^1973"CompileC build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/QuatzAppDelegate.o Quatz/QuatzAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vakkermans/src/Quatz    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Quatz-generated-files.hmap -I/Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Quatz-own-target-headers.hmap -I/Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Quatz-all-target-headers.hmap -iquote /Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Quatz-project-headers.hmap -I/Users/vakkermans/src/Quatz/build/Debug/include -I/Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/DerivedSources/x86_64 -I/Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/DerivedSources -F/Users/vakkermans/src/Quatz/build/Debug -include /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-ftmxocervcaoivgdwsrmfbzjspyf/Quatz-Prefix.pch -MMD -MT dependencies -MF /Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/QuatzAppDelegate.d -c /Users/vakkermans/src/Quatz/Quatz/QuatzAppDelegate.m -o /Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/QuatzAppDelegate.o
+
+CCompileC build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/QuatzAppDelegate.o /Users/vakkermans/src/chandelier_displayer/Quatz/QuatzAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s348518699.904799
+e348518700.370791
+r1
+xCompileC
+xbuild/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/QuatzAppDelegate.o
+x/Users/vakkermans/src/chandelier_displayer/Quatz/QuatzAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/vakkermans/src/chandelier_displayer/Quatz/QuatzAppDelegate.m98bee72bf9c5b441^96ea5e2cf9c5b441^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/vakkermans/src/chandelier_displayer/Quatz/QuatzAppDelegate.m0000000000000000^2328"CompileC build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/QuatzAppDelegate.o Quatz/QuatzAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vakkermans/src/chandelier_displayer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Quatz-generated-files.hmap -I/Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Quatz-own-target-headers.hmap -I/Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Quatz-all-target-headers.hmap -iquote /Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Quatz-project-headers.hmap -I/Users/vakkermans/src/chandelier_displayer/build/Debug/include -I/usr/local/include -I/Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/DerivedSources/x86_64 -I/Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/DerivedSources -F/Users/vakkermans/src/chandelier_displayer/build/Debug -F/Users/vakkermans/src/chandelier_displayer/../../Downloads/gabriel-yajl-objc-250b3a4/Project/build/Release -F/Users/vakkermans/src/chandelier_displayer -include /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-eafqvbakswlmdcbfikeukiamhkfz/Quatz-Prefix.pch -MMD -MT dependencies -MF /Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/QuatzAppDelegate.d -c /Users/vakkermans/src/chandelier_displayer/Quatz/QuatzAppDelegate.m -o /Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/QuatzAppDelegate.o
+
+CCompileC build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/ZMQContext.o /Users/vakkermans/src/chandelier_displayer/Quatz/ZMQContext.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s348517514.048132
+e348517514.360685
+r1
+xCompileC
+xbuild/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/ZMQContext.o
+x/Users/vakkermans/src/chandelier_displayer/Quatz/ZMQContext.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/vakkermans/src/chandelier_displayer/Quatz/ZMQContext.m:32:21:{32:21-32:32}{32:12-32:20}: warning: implicit conversion loses integer precision: 'NSUInteger' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32,3]
+o         context = zmq_init(threadCount);
+o                   ~~~~~~~~ ^~~~~~~~~~~
+o1 warning generated.
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/vakkermans/src/chandelier_displayer/Quatz/ZMQContext.m486b0c8af4c5b441^15545c8af4c5b441^-320"/Users/vakkermans/src/chandelier_displayer/Quatz/ZMQContext.m:32:21:{32:21-32:32}{32:12-32:20}: warning: implicit conversion loses integer precision: 'NSUInteger' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32,3]         context = zmq_init(threadCount);                   ~~~~~~~~ ^~~~~~~~~~~1 warning generated.1(21%IDEActivityLogMessage2@88"Implicit conversion loses integer precision: 'NSUInteger' (aka 'unsigned long') to 'int'57"Implicit conversion loses integer precision: 'NSUInteger'348517514#0#217#-1#-23%DVTTextDocumentLocation3@77"file://localhost/Users/vakkermans/src/chandelier_displayer/Quatz/ZMQContext.m0000000000000000^31#20#31#20#18446744073709551615#0#14"Semantic Issue2(3@77"file://localhost/Users/vakkermans/src/chandelier_displayer/Quatz/ZMQContext.m0000000000000000^31#20#31#31#18446744073709551615#0#3@77"file://localhost/Users/vakkermans/src/chandelier_displayer/Quatz/ZMQContext.m0000000000000000^31#11#31#19#18446744073709551615#0#-0#0#0#-19%DVTDocumentLocation4@77"file://localhost/Users/vakkermans/src/chandelier_displayer/Quatz/ZMQContext.m0000000000000000^2298"CompileC build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/ZMQContext.o Quatz/ZMQContext.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vakkermans/src/chandelier_displayer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Quatz-generated-files.hmap -I/Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Quatz-own-target-headers.hmap -I/Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Quatz-all-target-headers.hmap -iquote /Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Quatz-project-headers.hmap -I/Users/vakkermans/src/chandelier_displayer/build/Debug/include -I/usr/local/include -I/Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/DerivedSources/x86_64 -I/Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/DerivedSources -F/Users/vakkermans/src/chandelier_displayer/build/Debug -F/Users/vakkermans/src/chandelier_displayer/../../Downloads/gabriel-yajl-objc-250b3a4/Project/build/Release -F/Users/vakkermans/src/chandelier_displayer -include /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-eafqvbakswlmdcbfikeukiamhkfz/Quatz-Prefix.pch -MMD -MT dependencies -MF /Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/ZMQContext.d -c /Users/vakkermans/src/chandelier_displayer/Quatz/ZMQContext.m -o /Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/ZMQContext.o
+
+CCompileC build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/ZMQSocket.o /Users/vakkermans/src/chandelier_displayer/Quatz/ZMQSocket.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s348517514.362399
+e348517514.480440
+r1
+xCompileC
+xbuild/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/ZMQSocket.o
+x/Users/vakkermans/src/chandelier_displayer/Quatz/ZMQSocket.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/vakkermans/src/chandelier_displayer/Quatz/ZMQSocket.mc5e55c8af4c5b441^d3679b8af4c5b441^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/vakkermans/src/chandelier_displayer/Quatz/ZMQSocket.m0000000000000000^2293"CompileC build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/ZMQSocket.o Quatz/ZMQSocket.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vakkermans/src/chandelier_displayer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Quatz-generated-files.hmap -I/Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Quatz-own-target-headers.hmap -I/Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Quatz-all-target-headers.hmap -iquote /Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Quatz-project-headers.hmap -I/Users/vakkermans/src/chandelier_displayer/build/Debug/include -I/usr/local/include -I/Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/DerivedSources/x86_64 -I/Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/DerivedSources -F/Users/vakkermans/src/chandelier_displayer/build/Debug -F/Users/vakkermans/src/chandelier_displayer/../../Downloads/gabriel-yajl-objc-250b3a4/Project/build/Release -F/Users/vakkermans/src/chandelier_displayer -include /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-eafqvbakswlmdcbfikeukiamhkfz/Quatz-Prefix.pch -MMD -MT dependencies -MF /Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/ZMQSocket.d -c /Users/vakkermans/src/chandelier_displayer/Quatz/ZMQSocket.m -o /Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/ZMQSocket.o
+
+CCompileC build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/main.o /Users/vakkermans/src/Quatz/Quatz/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s347895843.975091
+e347895844.063860
+r1
+xCompileC
+xbuild/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/main.o
+x/Users/vakkermans/src/Quatz/Quatz/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Compile /Users/vakkermans/src/Quatz/Quatz/main.mebc4f92378bcb441^8e57102478bcb441^---0#0#0#-19%DVTDocumentLocation2@56"file://localhost/Users/vakkermans/src/Quatz/Quatz/main.m0000000000000000^1913"CompileC build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/main.o Quatz/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vakkermans/src/Quatz    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Quatz-generated-files.hmap -I/Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Quatz-own-target-headers.hmap -I/Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Quatz-all-target-headers.hmap -iquote /Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Quatz-project-headers.hmap -I/Users/vakkermans/src/Quatz/build/Debug/include -I/Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/DerivedSources/x86_64 -I/Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/DerivedSources -F/Users/vakkermans/src/Quatz/build/Debug -include /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-ftmxocervcaoivgdwsrmfbzjspyf/Quatz-Prefix.pch -MMD -MT dependencies -MF /Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/main.d -c /Users/vakkermans/src/Quatz/Quatz/main.m -o /Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/main.o
+
+CCompileC build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/main.o /Users/vakkermans/src/chandelier_displayer/Quatz/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s348439674.224256
+e348439674.343408
+r1
+xCompileC
+xbuild/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/main.o
+x/Users/vakkermans/src/chandelier_displayer/Quatz/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/vakkermans/src/chandelier_displayer/Quatz/main.m2499397ac4c4b441^cde8577ac4c4b441^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/vakkermans/src/chandelier_displayer/Quatz/main.m0000000000000000^2268"CompileC build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/main.o Quatz/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vakkermans/src/chandelier_displayer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Quatz-generated-files.hmap -I/Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Quatz-own-target-headers.hmap -I/Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Quatz-all-target-headers.hmap -iquote /Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Quatz-project-headers.hmap -I/Users/vakkermans/src/chandelier_displayer/build/Debug/include -I/usr/local/include -I/Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/DerivedSources/x86_64 -I/Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/DerivedSources -F/Users/vakkermans/src/chandelier_displayer/build/Debug -F/Users/vakkermans/src/chandelier_displayer/../../Downloads/gabriel-yajl-objc-250b3a4/Project/build/Release -F/Users/vakkermans/src/chandelier_displayer -include /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-eafqvbakswlmdcbfikeukiamhkfz/Quatz-Prefix.pch -MMD -MT dependencies -MF /Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/main.d -c /Users/vakkermans/src/chandelier_displayer/Quatz/main.m -o /Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/main.o
+
+CCompileXIB /Users/vakkermans/src/Quatz/Quatz/en.lproj/MainMenu.xib
+s347907735.541153
+e347907736.944463
+r1
+xCompileXIB
+x/Users/vakkermans/src/Quatz/Quatz/en.lproj/MainMenu.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compiling /Users/vakkermans/src/Quatz/Quatz/en.lproj/MainMenu.xib889c8a97a6bcb441^37c7f198a6bcb441^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/vakkermans/src/Quatz/Quatz/en.lproj/MainMenu.xib0000000000000000^422"CompileXIB Quatz/en.lproj/MainMenu.xib    cd /Users/vakkermans/src/Quatz    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Resources/en.lproj/MainMenu.nib /Users/vakkermans/src/Quatz/Quatz/en.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.7.sdk
+
+CCompileXIB /Users/vakkermans/src/chandelier_displayer/Quatz/en.lproj/MainMenu.xib
+s348518700.466076
+e348518700.614753
+r1
+xCompileXIB
+x/Users/vakkermans/src/chandelier_displayer/Quatz/en.lproj/MainMenu.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/vakkermans/src/chandelier_displayer/Quatz/en.lproj/MainMenu.xib:371: warning: Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations) [9]
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compiling /Users/vakkermans/src/chandelier_displayer/Quatz/en.lproj/MainMenu.xiba662772cf9c5b441^7b669d2cf9c5b441^-267"/* com.apple.ibtool.document.warnings *//Users/vakkermans/src/chandelier_displayer/Quatz/en.lproj/MainMenu.xib:371: warning: Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations) [9]1(21%IDEActivityLogMessage2@136"Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations)58"Content rectangle not entirely on screen with the menu bar348518700#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@86"file://localhost/Users/vakkermans/src/chandelier_displayer/Quatz/en.lproj/MainMenu.xib0000000000000000^370#18446744073709551615#370#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--0#0#0#-19%DVTDocumentLocation4@86"file://localhost/Users/vakkermans/src/chandelier_displayer/Quatz/en.lproj/MainMenu.xib0000000000000000^467"CompileXIB Quatz/en.lproj/MainMenu.xib    cd /Users/vakkermans/src/chandelier_displayer    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app/Contents/Resources/en.lproj/MainMenu.nib /Users/vakkermans/src/chandelier_displayer/Quatz/en.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.7.sdk
+
+CCopyStringsFile /Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Resources/en.lproj/InfoPlist.strings Quatz/en.lproj/InfoPlist.strings
+s347888434.679908
+e347888434.684669
+r1
+xCopyStringsFile
+x/Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Resources/en.lproj/InfoPlist.strings
+xQuatz/en.lproj/InfoPlist.strings
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy Quatz/en.lproj/InfoPlist.strings8866ae325bbcb441^a46eaf325bbcb441^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/vakkermans/src/Quatz/Quatz/en.lproj/InfoPlist.strings0000000000000000^356"CopyStringsFile build/Debug/Quatz.app/Contents/Resources/en.lproj/InfoPlist.strings Quatz/en.lproj/InfoPlist.strings    cd /Users/vakkermans/src/Quatz    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Resources/en.lproj -- Quatz/en.lproj/InfoPlist.strings
+
+CCopyStringsFile /Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app/Contents/Resources/en.lproj/InfoPlist.strings Quatz/en.lproj/InfoPlist.strings
+r0
+
+CCpResource Quatz/en.lproj/Credits.rtf build/Debug/Quatz.app/Contents/Resources/en.lproj/Credits.rtf
+s347888434.681436
+e347888434.685531
+r1
+xCpResource
+xQuatz/en.lproj/Credits.rtf
+xbuild/Debug/Quatz.app/Contents/Resources/en.lproj/Credits.rtf
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy build/Debug/Quatz.app/Contents/Resources/en.lproj/Credits.rtf6f83ae325bbcb441^be83af325bbcb441^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Resources/en.lproj/Credits.rtf00f42c6fdeffdf42^367"CpResource Quatz/en.lproj/Credits.rtf build/Debug/Quatz.app/Contents/Resources/en.lproj/Credits.rtf    cd /Users/vakkermans/src/Quatz    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/vakkermans/src/Quatz/Quatz/en.lproj/Credits.rtf /Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Resources/en.lproj
+
+CCpResource Quatz/processing.html build/Debug/Quatz.app/Contents/Resources/processing.html
+s348323345.657099
+e348323345.660757
+r1
+xCpResource
+xQuatz/processing.html
+xbuild/Debug/Quatz.app/Contents/Resources/processing.html
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug/Quatz.app/Contents/Resources/processing.htmlc153a811fec2b441^d940aa11fec2b441^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app/Contents/Resources/processing.html0000000000000000^388"CpResource Quatz/processing.html build/Debug/Quatz.app/Contents/Resources/processing.html    cd /Users/vakkermans/src/chandelier_displayer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/vakkermans/src/chandelier_displayer/Quatz/processing.html /Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app/Contents/Resources
+
+CCpResource Quatz/streetview.html build/Debug/Quatz.app/Contents/Resources/streetview.html
+s347990317.563174
+e347990317.665371
+r1
+xCpResource
+xQuatz/streetview.html
+xbuild/Debug/Quatz.app/Contents/Resources/streetview.html
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug/Quatz.app/Contents/Resources/streetview.html2541902de9bdb441^cf11b12de9bdb441^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Resources/streetview.html0000000000000000^343"CpResource Quatz/streetview.html build/Debug/Quatz.app/Contents/Resources/streetview.html    cd /Users/vakkermans/src/Quatz    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/vakkermans/src/Quatz/Quatz/streetview.html /Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Resources
+
+CCpResource Quatz/test.pde build/Debug/Quatz.app/Contents/Resources/test.pde
+s348322510.052597
+e348322510.058642
+r1
+xCpResource
+xQuatz/test.pde
+xbuild/Debug/Quatz.app/Contents/Resources/test.pde
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Debug/Quatz.app/Contents/Resources/test.pded7870dcefac2b441^c0030fcefac2b441^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app/Contents/Resources/test.pde00f42c6fdeffdf42^367"CpResource Quatz/test.pde build/Debug/Quatz.app/Contents/Resources/test.pde    cd /Users/vakkermans/src/chandelier_displayer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/vakkermans/src/chandelier_displayer/Quatz/test.pde /Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app/Contents/Resources
+
+CCpResource Quatz/wowlab_Dragon.qtz build/Debug/Quatz.app/Contents/Resources/wowlab_Dragon.qtz
+s347895861.360529
+e347895861.363699
+r1
+xCpResource
+xQuatz/wowlab_Dragon.qtz
+xbuild/Debug/Quatz.app/Contents/Resources/wowlab_Dragon.qtz
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug/Quatz.app/Contents/Resources/wowlab_Dragon.qtz255c5c3578bcb441^041f6f3578bcb441^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Resources/wowlab_Dragon.qtz00f42c6fdeffdf42^349"CpResource Quatz/wowlab_Dragon.qtz build/Debug/Quatz.app/Contents/Resources/wowlab_Dragon.qtz    cd /Users/vakkermans/src/Quatz    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/vakkermans/src/Quatz/Quatz/wowlab_Dragon.qtz /Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Resources
+
+CDataModelVersionCompile /Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Resources/Quatz.momd /Users/vakkermans/src/Quatz/Quatz/Quatz.xcdatamodeld
+s347895842.140951
+e347895842.254373
+r1
+xDataModelVersionCompile
+x/Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Resources/Quatz.momd
+x/Users/vakkermans/src/Quatz/Quatz/Quatz.xcdatamodeld
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"DataModelVersionCompile build/Debug/Quatz.app/Contents/Resources/Quatz.momd Quatz/Quatz.xcdatamodeldb727242278bcb441^e143412278bcb441^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/vakkermans/src/Quatz/Quatz/Quatz.xcdatamodeld/0000000000000000^397"DataModelVersionCompile build/Debug/Quatz.app/Contents/Resources/Quatz.momd Quatz/Quatz.xcdatamodeld    cd /Users/vakkermans/src/Quatz    /Developer/usr/bin/momc -XD_MOMC_SDKROOT=/Developer/SDKs/MacOSX10.7.sdk -MOMC_PLATFORMS macosx -XD_MOMC_TARGET_VERSION=10.6 /Users/vakkermans/src/Quatz/Quatz/Quatz.xcdatamodeld /Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Resources/Quatz.momd
+
+CDataModelVersionCompile /Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app/Contents/Resources/Quatz.momd /Users/vakkermans/src/chandelier_displayer/Quatz/Quatz.xcdatamodeld
+r0
+
+CLd /Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/MacOS/Quatz normal x86_64
+s347988022.026008
+e347988022.904346
+r1
+xLd
+x/Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/MacOS/Quatz
+xnormal
+xx86_64
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Link /Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/MacOS/Quatza5c00636e0bdb441^9c8be736e0bdb441^---0#0#0#--593"Ld build/Debug/Quatz.app/Contents/MacOS/Quatz normal x86_64    cd /Users/vakkermans/src/Quatz    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.7.sdk -L/Users/vakkermans/src/Quatz/build/Debug -F/Users/vakkermans/src/Quatz/build/Debug -filelist /Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/Quatz.LinkFileList -mmacosx-version-min=10.6 -framework WebKit -framework Quartz -framework QuartzCore -framework Cocoa -o /Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/MacOS/Quatz
+
+CLd /Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app/Contents/MacOS/Quatz normal x86_64
+s348518700.377635
+e348518700.456708
+r1
+xLd
+x/Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app/Contents/MacOS/Quatz
+xnormal
+xx86_64
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Link /Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app/Contents/MacOS/Quatz8bc4602cf9c5b441^cceb742cf9c5b441^---0#0#0#--898"Ld build/Debug/Quatz.app/Contents/MacOS/Quatz normal x86_64    cd /Users/vakkermans/src/chandelier_displayer    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.7.sdk -L/Users/vakkermans/src/chandelier_displayer/build/Debug -F/Users/vakkermans/src/chandelier_displayer/build/Debug -F/Users/vakkermans/src/chandelier_displayer/../../Downloads/gabriel-yajl-objc-250b3a4/Project/build/Release -F/Users/vakkermans/src/chandelier_displayer -filelist /Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Objects-normal/x86_64/Quatz.LinkFileList -Xlinker -rpath -Xlinker "@loader_path/../Frameworks" -mmacosx-version-min=10.6 -lzmq -framework WebKit -framework Quartz -framework QuartzCore -framework Cocoa -framework YAJL -o /Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app/Contents/MacOS/Quatz
+
+CPBXCp YAJL.framework build/Debug/Quatz.app/Contents/Frameworks/YAJL.framework
+s348517515.054784
+e348517515.070855
+r1
+xPBXCp
+xYAJL.framework
+xbuild/Debug/Quatz.app/Contents/Frameworks/YAJL.framework
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug/Quatz.app/Contents/Frameworks/YAJL.frameworkef1c0e8bf4c5b441^ba30128bf4c5b441^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app/Contents/Frameworks/YAJL.framework/0000000000000000^370"PBXCp YAJL.framework build/Debug/Quatz.app/Contents/Frameworks/YAJL.framework    cd /Users/vakkermans/src/chandelier_displayer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/vakkermans/src/chandelier_displayer/YAJL.framework /Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app/Contents/Frameworks
+
+CProcessInfoPlistFile /Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Info.plist Quatz/Quatz-Info.plist
+s347895842.126286
+e347895842.130116
+r1
+xProcessInfoPlistFile
+x/Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Info.plist
+xQuatz/Quatz-Info.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Process Quatz/Quatz-Info.plist3963202278bcb441^e7e1242278bcb441^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Users/vakkermans/src/Quatz/Quatz/Quatz-Info.plist0000000000000000^363"ProcessInfoPlistFile build/Debug/Quatz.app/Contents/Info.plist Quatz/Quatz-Info.plist    cd /Users/vakkermans/src/Quatz    builtin-infoPlistUtility Quatz/Quatz-Info.plist -genpkginfo /Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/vakkermans/src/Quatz/build/Debug/Quatz.app/Contents/Info.plist
+
+CProcessInfoPlistFile /Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app/Contents/Info.plist Quatz/Quatz-Info.plist
+r0
+
+CProcessPCH /Users/vakkermans/Library/Developer/Xcode/DerivedData/Quatz-eloowhdimgpglnbnguzjgxqzzarj/Index/PrecompiledHeaders/Quatz-Prefix-esyibzcdtrruqeegfbhxbflxngro_ast/Quatz-Prefix.pch.pth Quatz/Quatz-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/vakkermans/Library/Developer/Xcode/DerivedData/Quatz-eloowhdimgpglnbnguzjgxqzzarj/Index/PrecompiledHeaders/Quatz-Prefix-etoszqesmxlgeidokaanfvlszqzt_ast/Quatz-Prefix.pch.pth Quatz/Quatz-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/vakkermans/Library/Developer/Xcode/DerivedData/Quatz-eloowhdimgpglnbnguzjgxqzzarj/Index/PrecompiledHeaders/Quatz-Prefix-goskxjzcahrxkpgtvtiromaunsxc_ast/Quatz-Prefix.pch.pth Quatz/Quatz-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/vakkermans/Library/Developer/Xcode/DerivedData/Quatz-eloowhdimgpglnbnguzjgxqzzarj/Index/PrecompiledHeaders/Quatz-Prefix-hfxsttptgmlrtzcsmwzwkqmtydjk_ast/Quatz-Prefix.pch.pth Quatz/Quatz-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/vakkermans/Library/Developer/Xcode/DerivedData/Quatz-fdegjcxnxvzbbdgepbjjxyirmhpv/Index/PrecompiledHeaders/Quatz-Prefix-dypyxlzktcudicehwyuiiretmryy_ast/Quatz-Prefix.pch.pth Quatz/Quatz-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/vakkermans/Library/Developer/Xcode/DerivedData/Quatz-fdegjcxnxvzbbdgepbjjxyirmhpv/Index/PrecompiledHeaders/Quatz-Prefix-gxjztxlzhazlntcrmjxpmqcgcodg_ast/Quatz-Prefix.pch.pth Quatz/Quatz-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-afrrccncblpvppgdbhzgseovxaci/Quatz-Prefix.pch.pth Quatz/Quatz-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s348432246.970646
+e348432248.314296
+r1
+xProcessPCH
+x/var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-afrrccncblpvppgdbhzgseovxaci/Quatz-Prefix.pch.pth
+xQuatz/Quatz-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile Quatz/Quatz-Prefix.pchd89bf876a7c4b441^bd735078a7c4b441^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/vakkermans/src/chandelier_displayer/Quatz/Quatz-Prefix.pch0000000000000000^2169"ProcessPCH /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-afrrccncblpvppgdbhzgseovxaci/Quatz-Prefix.pch.pth Quatz/Quatz-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vakkermans/src/chandelier_displayer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Quatz-generated-files.hmap -I/Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Quatz-own-target-headers.hmap -I/Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Quatz-all-target-headers.hmap -iquote /Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Quatz-project-headers.hmap -I/Users/vakkermans/src/chandelier_displayer/build/Debug/include -I/usr/local/include -I/Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/DerivedSources/x86_64 -I/Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/DerivedSources -F/Users/vakkermans/src/chandelier_displayer/build/Debug -c /Users/vakkermans/src/chandelier_displayer/Quatz/Quatz-Prefix.pch -o /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-afrrccncblpvppgdbhzgseovxaci/Quatz-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-afrrccncblpvppgdbhzgseovxaci/Quatz-Prefix.pch.d
+
+CProcessPCH /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-axuiwpowgpebzfbrcrscadplodgu/Quatz-Prefix.pch.pth Quatz/Quatz-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s348322505.215648
+e348322507.965803
+r1
+xProcessPCH
+x/var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-axuiwpowgpebzfbrcrscadplodgu/Quatz-Prefix.pch.pth
+xQuatz/Quatz-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile Quatz/Quatz-Prefix.pchaed738c9fac2b441^4964f7cbfac2b441^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/vakkermans/src/chandelier_displayer/Quatz/Quatz-Prefix.pch0000000000000000^2148"ProcessPCH /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-axuiwpowgpebzfbrcrscadplodgu/Quatz-Prefix.pch.pth Quatz/Quatz-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vakkermans/src/chandelier_displayer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Quatz-generated-files.hmap -I/Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Quatz-own-target-headers.hmap -I/Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Quatz-all-target-headers.hmap -iquote /Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Quatz-project-headers.hmap -I/Users/vakkermans/src/chandelier_displayer/build/Debug/include -I/Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/DerivedSources/x86_64 -I/Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/DerivedSources -F/Users/vakkermans/src/chandelier_displayer/build/Debug -c /Users/vakkermans/src/chandelier_displayer/Quatz/Quatz-Prefix.pch -o /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-axuiwpowgpebzfbrcrscadplodgu/Quatz-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-axuiwpowgpebzfbrcrscadplodgu/Quatz-Prefix.pch.d
+
+CProcessPCH /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-eafqvbakswlmdcbfikeukiamhkfz/Quatz-Prefix.pch.pth Quatz/Quatz-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s348439673.014979
+e348439674.217381
+r1
+xProcessPCH
+x/var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-eafqvbakswlmdcbfikeukiamhkfz/Quatz-Prefix.pch.pth
+xQuatz/Quatz-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile Quatz/Quatz-Prefix.pch2bfa0379c4c4b441^51a4377ac4c4b441^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/vakkermans/src/chandelier_displayer/Quatz/Quatz-Prefix.pch0000000000000000^2323"ProcessPCH /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-eafqvbakswlmdcbfikeukiamhkfz/Quatz-Prefix.pch.pth Quatz/Quatz-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vakkermans/src/chandelier_displayer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Quatz-generated-files.hmap -I/Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Quatz-own-target-headers.hmap -I/Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Quatz-all-target-headers.hmap -iquote /Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/Quatz-project-headers.hmap -I/Users/vakkermans/src/chandelier_displayer/build/Debug/include -I/usr/local/include -I/Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/DerivedSources/x86_64 -I/Users/vakkermans/src/chandelier_displayer/build/Quatz.build/Debug/Quatz.build/DerivedSources -F/Users/vakkermans/src/chandelier_displayer/build/Debug -F/Users/vakkermans/src/chandelier_displayer/../../Downloads/gabriel-yajl-objc-250b3a4/Project/build/Release -F/Users/vakkermans/src/chandelier_displayer -c /Users/vakkermans/src/chandelier_displayer/Quatz/Quatz-Prefix.pch -o /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-eafqvbakswlmdcbfikeukiamhkfz/Quatz-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-eafqvbakswlmdcbfikeukiamhkfz/Quatz-Prefix.pch.d
+
+CProcessPCH /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-eklwzsdrxpofbebvriaflyusggbu/Quatz-Prefix.pch.pth Quatz/Quatz-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-ftmxocervcaoivgdwsrmfbzjspyf/Quatz-Prefix.pch.pth Quatz/Quatz-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s347895842.142435
+e347895843.967983
+r1
+xProcessPCH
+x/var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-ftmxocervcaoivgdwsrmfbzjspyf/Quatz-Prefix.pch.pth
+xQuatz/Quatz-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile Quatz/Quatz-Prefix.pchfc8f242278bcb441^08ccf72378bcb441^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Users/vakkermans/src/Quatz/Quatz/Quatz-Prefix.pch0000000000000000^1998"ProcessPCH /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-ftmxocervcaoivgdwsrmfbzjspyf/Quatz-Prefix.pch.pth Quatz/Quatz-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vakkermans/src/Quatz    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Quatz-generated-files.hmap -I/Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Quatz-own-target-headers.hmap -I/Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Quatz-all-target-headers.hmap -iquote /Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Quatz-project-headers.hmap -I/Users/vakkermans/src/Quatz/build/Debug/include -I/Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/DerivedSources/x86_64 -I/Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/DerivedSources -F/Users/vakkermans/src/Quatz/build/Debug -c /Users/vakkermans/src/Quatz/Quatz/Quatz-Prefix.pch -o /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-ftmxocervcaoivgdwsrmfbzjspyf/Quatz-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-ftmxocervcaoivgdwsrmfbzjspyf/Quatz-Prefix.pch.d
+
+CProcessPCH /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-gsyqxbdgvpdcwsehzxpvtvaxrfbq/Quatz-Prefix.pch.pth Quatz/Quatz-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s347888431.978175
+e347888434.281073
+r1
+xProcessPCH
+x/var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-gsyqxbdgvpdcwsehzxpvtvaxrfbq/Quatz-Prefix.pch.pth
+xQuatz/Quatz-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile Quatz/Quatz-Prefix.pch6685fa2f5bbcb441^38f347325bbcb441^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Users/vakkermans/src/Quatz/Quatz/Quatz-Prefix.pch0000000000000000^1998"ProcessPCH /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-gsyqxbdgvpdcwsehzxpvtvaxrfbq/Quatz-Prefix.pch.pth Quatz/Quatz-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vakkermans/src/Quatz    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Quatz-generated-files.hmap -I/Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Quatz-own-target-headers.hmap -I/Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Quatz-all-target-headers.hmap -iquote /Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/Quatz-project-headers.hmap -I/Users/vakkermans/src/Quatz/build/Debug/include -I/Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/DerivedSources/x86_64 -I/Users/vakkermans/src/Quatz/build/Quatz.build/Debug/Quatz.build/DerivedSources -F/Users/vakkermans/src/Quatz/build/Debug -c /Users/vakkermans/src/Quatz/Quatz/Quatz-Prefix.pch -o /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-gsyqxbdgvpdcwsehzxpvtvaxrfbq/Quatz-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/tl/xr4629p93vsf__z3vv_v8g940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Quatz-Prefix-gsyqxbdgvpdcwsehzxpvtvaxrfbq/Quatz-Prefix.pch.d
+
+CTouch /Users/vakkermans/src/Quatz/build/Debug/Quatz.app
+s347990317.758837
+e347990317.840848
+r1
+xTouch
+x/Users/vakkermans/src/Quatz/build/Debug/Quatz.app
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Touch /Users/vakkermans/src/Quatz/build/Debug/Quatz.app3b55c22de9bdb441^e196d72de9bdb441^---0#0#0#--135"Touch build/Debug/Quatz.app    cd /Users/vakkermans/src/Quatz    /usr/bin/touch -c /Users/vakkermans/src/Quatz/build/Debug/Quatz.app
+
+CTouch /Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app
+s348518700.636306
+e348518700.646397
+r1
+xTouch
+x/Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Touch /Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app9df4a22cf9c5b441^6c79a52cf9c5b441^---0#0#0#--165"Touch build/Debug/Quatz.app    cd /Users/vakkermans/src/chandelier_displayer    /usr/bin/touch -c /Users/vakkermans/src/chandelier_displayer/build/Debug/Quatz.app
+
